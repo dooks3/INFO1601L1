@@ -37,14 +37,11 @@
                 </details>
             </section>
 
-            <dialog id="mydialog">
+            <dialog id ="mydialog">
                 This is a dialog 
-                <a href ="javascript:mydialog.removeAttribute('open')">close</a>
+                <a href ="javascript:mydialog.removeAttribute('open')"> close</a>
             </dialog>
-            
-            <a href = "javascript:document.querySelection('#mydialog').setAttribute('open', true)">
-                Open Dialog
-            </a>
+            <a href = "javascript:document.querySelector('#mydialog').setAttribute('open',true)"> Open Dialog</a>
             
         </article>
 
